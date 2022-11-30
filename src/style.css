@@ -17,6 +17,11 @@
 
   --ff-primary: "Montserrat", sans-serif;
   --ff-accent: "Voces", sans-serif;
+
+  /* newColors */
+  --clr-blue-400: #3355F4; 
+  --clr-pink-400: #EF1585; 
+  /* end of newColors */
 }
 /* background gradient */
 /* background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard-600));
@@ -47,7 +52,7 @@ h1 {
   margin-bottom: 2rem;
   text-align: center;
   text-decoration: none;
-background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard-600));
+background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-blue-400));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -61,7 +66,7 @@ font-family: var(--ff-primary);
 }
 
 .headerGraphic-svg{
-  background-image: url(); 
+  background-image: url(media/SMo\ logo\ 2022/MOREJON_SignatureLogo-02.svg); 
   background-position: 50% 50%; 
   background-repeat: no-repeat; 
   background-size: contain; 
