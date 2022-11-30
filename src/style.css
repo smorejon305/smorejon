@@ -1,0 +1,438 @@
+:root {
+  --clr-neutral-100: #f1f1f1;
+  --clr-neutral-200: #e7e7de;
+  --clr-neutral-700: #323232;
+  --clr-neutral-800: #212529;
+  --clr-neutral-900: #000000;
+
+  --clr-maroon-600: #810f01;
+  --clr-mustard-600: #fed049;
+  --clr-mustard-800: #ffa43d;
+
+  --clr-petrol-200: #1fad9f;
+  --clr-petrol-600: #00587a;
+  --clr-petrol-800: #025955;
+
+  --clr-hunterGreen-600: #065446;
+
+  --ff-primary: "Montserrat", sans-serif;
+  --ff-accent: "Voces", sans-serif;
+}
+/* background gradient */
+/* background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard-600));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; */
+
+body {
+  background: var(--clr-neutral-800);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: var(--ff-primary); 
+
+}
+
+
+.space-element{
+ height: 5em; 
+}
+
+h1 {
+  color: var(--clr-neutral-200);
+  font-family: var(--ff-primary); 
+  font-size: 5em;
+  font-weight: 100;
+  margin-top: 1rem; 
+  margin-bottom: 2rem;
+  text-align: center;
+  text-decoration: none;
+background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard-600));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.headerSubTitle{
+  color: var(--clr-neutral-200); 
+text-align: center; 
+font-weight: 200; 
+font-family: var(--ff-primary); 
+
+}
+
+.headerGraphic-svg{
+  background-image: url(); 
+  background-position: 50% 50%; 
+  background-repeat: no-repeat; 
+  background-size: contain; 
+  height: 60vh; 
+}
+
+.headerGraphic-svgSubPages{
+  background-image: url(media/SMorejon-logo2021/SMorejon-logoWhite.svg); 
+  background-position: 50% 50%; 
+  background-repeat: no-repeat; 
+  background-size: contain; 
+  height: 40vh; 
+}
+
+/* SKILLS SECTIOn */
+
+
+
+/*  */
+
+hr {
+  color: whitesmoke; 
+}
+.sectionTitle-h2 {
+font-weight: 100; 
+  font-family: var(--ff-primary); 
+  text-align: left;
+  color: var(--clr-neutral-200); 
+  margin: 2em; 
+  /* background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard-600));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+
+
+.sectionHeader {
+  color: var(--clr-neutral-100);
+  font-family: var(--ff-primary);
+  font-size: 2em;
+  padding: 2em;
+  text-decoration: none;
+  
+
+}
+
+@media (min-width: 600px) {
+  .sectionHeader {
+    font-size: 2.5em;
+  }
+}
+
+h6 {
+  color: whitesmoke;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+a {
+  color: #f1f1f1;
+  font-size: 20px;
+  text-decoration: none;}
+
+a:hover{
+  color: #f1f1f1;
+
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  margin-top: 80px;
+  border: solid 2px black;
+}
+
+iframe:hover {
+  box-shadow: 10px 10px black;
+}
+
+p {
+  color: #d8ebe4;
+}
+
+/* navBar  */
+
+/* .navBar{
+
+} */
+
+.navBar-list {
+  display: flex; 
+}
+
+
+
+.navBar-item{
+  font-size: .5em; 
+  padding: 1em; 
+  min-width: fit-content;
+margin: 0 auto; 
+justify-content: space-around; 
+}
+
+.navBar-link{
+  font-size: 1.5em; 
+
+}
+@media screen and (min-width: 600px) {
+  
+  .navBar-link{
+    font-size: 2.5em; 
+  }
+  }
+
+.navBar-link:hover{
+background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard-600));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+/* end of navBar */
+
+
+/*HEADER banner*/
+
+.header {
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+  max-width: 100%;
+}
+
+.headerGraphic {
+  color: #f1f1f1;
+  font-family: var(--ff-accent);
+  font-size: 4em;
+  font-weight: lighter;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+.brainIcon {
+  color: var(--clr-mustard-800);
+}
+
+.plusIcon {
+  color: var(--clr-petrol-200);
+}
+
+.heartIcon {
+  color: var(--clr-maroon-600);
+}
+.headerSkills {
+  color: var(--clr-neutral-200);
+  font-family: "Roboto";
+  font-size: 2em;
+  margin-top: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+.headerName {
+  color: var(--clr-petrol-200);
+  font-size: 2em;
+}
+
+.whiteBackground{
+  background-color: var(--clr-neutral-200); 
+}
+
+
+@media (min-width: 600px) {
+  .headerGraphic {
+    font-size: 10em;
+  }
+  .headerSkills {
+    font-size: 3em;
+  }
+
+  .headerName {
+    font-size: 6em;
+  }
+}
+
+
+/* Hidden Text - landing page */
+.hiddenText{
+  text-align: center; 
+  margin-top: 1.5em; 
+}
+
+.hiddenText-link{
+  font-size: 1.2em; 
+  font-weight: 100; 
+  opacity: 0%; 
+}
+
+.hiddenText-link:hover{
+  opacity: 100%; 
+}
+
+/* end Hidden Text - landing page */
+
+
+
+.acrossLi {
+  display: block;
+  color: white;
+  margin: 0 auto;
+  padding: 35px;
+}
+
+.card-img-top {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.contacts {
+  text-decoration: none;
+}
+
+.contactImage {
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+}
+
+.copyright {
+  padding-top: 2rem;
+}
+.sections {
+  color: var(--clr-neutral-100);
+  text-align: center;
+}
+
+
+
+/*PORTFOLIO*/
+
+.portfolioCard {
+  border-radius: 20px;
+  margin: 1em;
+  
+}
+
+.portfolioCard:hover {
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  transform: scale(1.05);
+}
+
+.card-title {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.portfolioIMG {
+  border-radius: 20px;
+}
+
+.portfolioLinks {
+  font-size: 0.8em;
+}
+
+.portfolioCard-text {
+  color: whitesmoke;
+  font-family: var(--ff-primary);
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.submitButton {
+  font-size: smaller;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.footerLink {
+  display: block;
+  margin: 0 auto;
+}
+
+.yellow {
+  color: var(--clr-mustard-600);
+}
+
+.yellow:hover {
+  transform: rotate(360deg);
+}
+
+.turquoise {
+  color: var(--clr-petrol-200);
+}
+
+.maroon {
+  color: var(--clr-maroon-600);
+}
+
+.copyright {
+  font-size: 0.5em;
+}
+
+
+/* ABOUT ME */
+
+.aboutMe-section{
+  background-color: var(--clr-neutral-100); 
+padding-bottom: 5em; 
+display: block; 
+}
+
+
+
+.aboutAvatar{
+  max-width: 60%; 
+ display: block; 
+ margin: 0 auto; 
+ padding-top: 1em; 
+}
+
+@media (min-width: 600px) {
+  .aboutAvatar{
+    max-width: 65%; 
+  }
+  }
+
+.aboutText {
+  color: var(--clr-neutral-900); 
+  padding: 2.5em 2.5em; 
+  font-size: 1.2em; 
+  line-height: 2em; 
+  letter-spacing: .1em; 
+  font-weight: 400; 
+  text-align: left; 
+}
+
+.contactButton{
+  display: block; 
+  margin: 0 auto; 
+  border: none; 
+border-radius: 20px; 
+padding: 1em; 
+margin-bottom: 2em; 
+background: rgb(31,173,159);
+background: linear-gradient(3deg, rgba(31,173,159,1) 60%, rgba(231,231,222,1) 100%);
+}
+
+/* .contactButton:hover{
+  background: rgb(31,173,159);
+background: linear-gradient(3deg, rgba(31,173,159,1) 60%, rgba(254,208,73,1) 100%);
+} */
+
+.contactButton-link:hover{
+  color: white; 
+ font-size: 1.5em; 
+}
+
+/* .seePortfolio-link{
+  color: white; 
+} */
+
+/* end of ABOUT ME */
