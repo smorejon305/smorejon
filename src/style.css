@@ -19,12 +19,16 @@
 
   /* newColors */
   --clr-blue-400: #3355F4; 
-  --clr-blue-200: ; 
+  --clr-blue-200: #ADBBFB; 
+
   --clr-pink-400: #EF1585; 
-  --clr-pink-200: ; 
+  --clr-pink-200: #F9A1CE; 
+
   --clr-green-400: #3AD27E; 
-  --clr-green-200: ; 
+  --clr-green-200: #B0EDCB; 
+
 --clr-purple-400: #4C059F; 
+--clr-purple-200: #A77ED7; 
   /* end of newColors */
 }
 /* background gradient */
@@ -48,7 +52,6 @@ body {
 }
 
 h1 {
-  color: var(--clr-neutral-200);
   font-family: var(--ff-primary); 
   font-size: 5em;
   font-weight: 100;
@@ -62,7 +65,7 @@ background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-blue-40
 }
 
 .headerSubTitle{
-  color: var(--clr-neutral-200); 
+  color: var(--clr-neutral-100); 
 text-align: center; 
 font-size: 1em; 
 font-weight: 200; 
@@ -383,6 +386,10 @@ footer {
 }
 
 .githubLink-color:hover {
+  color: var(--clr-pink-200);
+}
+
+.githubLink-color:hover {
   transform: rotate(360deg);
 }
 
@@ -390,8 +397,16 @@ footer {
   color: var(--clr-blue-400);
 }
 
+.linkedinLink-color:hover {
+  color: var(--clr-blue-200);
+}
+
 .emailLink-color {
-  color: var(--clr-purple-400);
+  color: var(--clr-green-400);
+}
+
+.emailLink-color:hover {
+  color: var(--clr-green-200);
 }
 
 .copyright {
