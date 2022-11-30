@@ -402,10 +402,10 @@ display: block;
 
 .aboutText {
   color: var(--clr-neutral-900); 
+  margin: 0 15%; 
   padding: 2.5em 2.5em; 
   font-size: 1.2em; 
   line-height: 2em; 
-  letter-spacing: .1em; 
   font-weight: 400; 
   text-align: left; 
 }
