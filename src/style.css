@@ -1,9 +1,8 @@
 :root {
-  --clr-neutral-100: #f1f1f1;
-  --clr-neutral-200: #e7e7de;
+  --clr-neutral-100: #f5f5f5;
   --clr-neutral-700: #323232;
   --clr-neutral-800: #212529;
-  --clr-neutral-900: #000000;
+  --clr-neutral-900: #1a1a1a;
 
   --clr-maroon-600: #810f01;
   --clr-mustard-600: #fed049;
@@ -20,7 +19,12 @@
 
   /* newColors */
   --clr-blue-400: #3355F4; 
+  --clr-blue-200: ; 
   --clr-pink-400: #EF1585; 
+  --clr-pink-200: ; 
+  --clr-green-400: #3AD27E; 
+  --clr-green-200: ; 
+--clr-purple-400: #4C059F; 
   /* end of newColors */
 }
 /* background gradient */
@@ -29,7 +33,7 @@
 -webkit-text-fill-color: transparent; */
 
 body {
-  background: var(--clr-neutral-800);
+  background: var(--clr-neutral-900);
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
@@ -185,7 +189,7 @@ justify-content: space-around;
   }
 
 .navBar-link:hover{
-background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard-600));
+background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-blue-400));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -226,7 +230,7 @@ background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard
   color: var(--clr-maroon-600);
 }
 .headerSkills {
-  color: var(--clr-neutral-200);
+  color: var(--clr-neutral-100);
   font-family: "Roboto";
   font-size: 2em;
   margin-top: 0;
@@ -240,7 +244,7 @@ background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard
 }
 
 .whiteBackground{
-  background-color: var(--clr-neutral-200); 
+  background-color: var(--clr-neutral-100); 
 }
 
 
@@ -374,20 +378,20 @@ footer {
   margin: 0 auto;
 }
 
-.yellow {
-  color: var(--clr-mustard-600);
+.githubLink-color {
+  color: var(--clr-pink-400);
 }
 
-.yellow:hover {
+.githubLink-color:hover {
   transform: rotate(360deg);
 }
 
-.turquoise {
-  color: var(--clr-petrol-200);
+.linkedinLink-color {
+  color: var(--clr-blue-400);
 }
 
-.maroon {
-  color: var(--clr-maroon-600);
+.emailLink-color {
+  color: var(--clr-purple-400);
 }
 
 .copyright {
