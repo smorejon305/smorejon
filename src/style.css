@@ -351,6 +351,10 @@ footer {
   text-align: center;
 }
 
+.footerLogo{
+  background-image: url(media/SMo\ logo\ 2022/Morejon)
+}
+
 .footerLink {
   display: block;
   margin: 0 auto;
