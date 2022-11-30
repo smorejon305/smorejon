@@ -162,9 +162,10 @@ p {
 
 /* navBar  */
 
-/* .navBar{
 
-} */
+.navBar{
+  margin-top: 1.5em; 
+}
 
 .navBar-list {
   display: flex; 
@@ -382,7 +383,7 @@ footer {
 }
 
 .githubLink-color {
-  color: var(--clr-pink-400);
+  color: var(--clr-neutral-100);
 }
 
 .githubLink-color:hover {
@@ -394,7 +395,7 @@ footer {
 }
 
 .linkedinLink-color {
-  color: var(--clr-blue-400);
+  color: var(--clr-neutral-100);
 }
 
 .linkedinLink-color:hover {
@@ -402,7 +403,7 @@ footer {
 }
 
 .emailLink-color {
-  color: var(--clr-green-400);
+  color: var(--clr-neutral-100);
 }
 
 .emailLink-color:hover {
