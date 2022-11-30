@@ -60,6 +60,7 @@ background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-blue-40
 .headerSubTitle{
   color: var(--clr-neutral-200); 
 text-align: center; 
+font-size: 1em; 
 font-weight: 200; 
 font-family: var(--ff-primary); 
 
@@ -256,6 +257,10 @@ background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard
   }
 }
 
+.headerSubTitle{
+  font-size: 2em; 
+}
+
 
 /* Hidden Text - landing page */
 .hiddenText{
@@ -357,7 +362,11 @@ footer {
 }
 
 .footerLogo{
-  background-image: url(media/SMo\ logo\ 2022/Morejon)
+  background-image: url(media/SMo\ logo\ 2022/MOREJON_SignatureLogo-02.svg); 
+  background-position: 50% 50%; 
+  background-repeat: no-repeat; 
+  background-size: contain; 
+  height: 10vh; 
 }
 
 .footerLink {
