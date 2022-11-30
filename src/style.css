@@ -380,22 +380,21 @@ footer {
 .footerLink {
   display: block;
   margin: 0 auto;
+  padding: .2em; 
 }
 
 .githubLink-color {
-  color: var(--clr-neutral-100);
+color: var(--clr-pink-400); 
 }
 
 .githubLink-color:hover {
   color: var(--clr-pink-200);
 }
 
-.githubLink-color:hover {
-  transform: rotate(360deg);
-}
 
 .linkedinLink-color {
-  color: var(--clr-neutral-100);
+  color: var(--clr-blue-400); 
+
 }
 
 .linkedinLink-color:hover {
@@ -403,7 +402,8 @@ footer {
 }
 
 .emailLink-color {
-  color: var(--clr-neutral-100);
+  color: var(--clr-green-400); 
+
 }
 
 .emailLink-color:hover {
