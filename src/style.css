@@ -51,6 +51,7 @@ body {
  height: 5em; 
 }
 
+
 h1 {
   font-family: var(--ff-primary); 
   font-size: 3em;
@@ -64,13 +65,36 @@ background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-blue-40
 -webkit-text-fill-color: transparent;
 }
 
-.headerSubTitle{
+.hero-h1{
+font-size: 3em; 
+}
+
+.hero-header2{
   color: var(--clr-neutral-100); 
 text-align: center; 
 font-size: 1em; 
 font-weight: 200; 
 font-family: var(--ff-primary); 
+}
 
+@media screen and (max-width: 400px){
+  .hero-h1{
+    font-size: 2em; 
+  }
+
+  .hero-header2{
+    font-size: .5em; 
+  }
+}
+
+@media screen and (max-width: 700px){
+  .hero-h1{
+    font-size: 1.5em; 
+  }
+
+  .hero-header2{
+    font-size: .8em; 
+  }
 }
 
 .headerGraphic-svg{
