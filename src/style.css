@@ -60,7 +60,7 @@ h1 {
   margin-bottom: 2rem;
   text-align: center;
   text-decoration: none;
-background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-blue-400));
+background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard-600));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -408,30 +408,30 @@ footer {
 }
 
 .githubLink-color {
-color: var(--clr-pink-400); 
+color: var(--clr-neutral-100); 
 }
 
 .githubLink-color:hover {
-  color: var(--clr-pink-200);
+  color: var(--clr-maroon-600);
 }
 
 
 .linkedinLink-color {
-  color: var(--clr-blue-400); 
+  color: var(--clr-neutral-100); 
 
 }
 
 .linkedinLink-color:hover {
-  color: var(--clr-blue-200);
+  color: var(--clr-petrol-600);
 }
 
 .emailLink-color {
-  color: var(--clr-green-400); 
+  color: var(--clr-neutral-100); 
 
 }
 
 .emailLink-color:hover {
-  color: var(--clr-green-200);
+  color: var(--clr-mustard-600);
 }
 
 .copyright {
