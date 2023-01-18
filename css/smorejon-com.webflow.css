@@ -341,7 +341,7 @@ a {
 }
 
 .contactform-embedsection {
-  max-height: 100vh;
+  max-height: none;
   max-width: 100vw;
 }
 
@@ -512,7 +512,7 @@ a {
 }
 
 .bloomembed-div {
-  max-height: 100vh;
+  max-height: none;
 }
 
 .abouttext-paragraph {
