@@ -107,6 +107,14 @@ a {
   color: #fff;
 }
 
+.navlink:hover {
+  color: #07b99f;
+}
+
+.navlink.w--current {
+  color: #059f87;
+}
+
 .footersection {
   display: -webkit-box;
   display: -webkit-flex;
