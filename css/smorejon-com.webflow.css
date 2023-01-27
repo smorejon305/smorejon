@@ -914,6 +914,18 @@ a {
   .projectcasestudy-linktext {
     margin-left: 15px;
   }
+
+  .nav-menu {
+    background-color: #030303;
+  }
+
+  .menu-button {
+    background-color: #030303;
+  }
+
+  .menu-button.w--open {
+    background-color: #030303;
+  }
 }
 
 @media screen and (max-width: 767px) {
