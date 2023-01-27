@@ -529,8 +529,7 @@ a {
   margin-top: 10px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 0px;
-  padding-left: 0px;
+  padding: 20px 0px 40px;
   font-size: 1.1em;
   text-align: left;
   white-space: normal;
