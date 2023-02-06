@@ -320,6 +320,10 @@ a {
   font-family: 'Fa brands 400', sans-serif;
 }
 
+.fontawesome:hover {
+  color: #06d2b2;
+}
+
 .sociallink-block:hover {
   color: #06d2b2;
 }
@@ -525,14 +529,19 @@ a {
 
 .abouttext-paragraph {
   display: block;
-  width: 60ch;
+  width: 40ch;
   margin-top: 10px;
   margin-right: auto;
   margin-left: auto;
   padding: 20px 0px 40px;
-  font-size: 1.1em;
+  font-size: 1.5em;
   text-align: left;
   white-space: normal;
+}
+
+.abouttext-paragraph.finalparagraph {
+  width: 60ch;
+  margin-top: 100px;
 }
 
 .aboutpage-h1 {
@@ -544,6 +553,7 @@ a {
 .aboutpage-h1.gradienttext-span {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#06d8b7), to(#030303));
   background-image: linear-gradient(180deg, #06d8b7, #030303);
+  font-size: 4em;
 }
 
 .aboutimage {
@@ -572,6 +582,13 @@ a {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: space-around;
+  -ms-flex-line-pack: distribute;
+  align-content: space-around;
+  border-radius: 0px;
 }
 
 .projectdiv {
@@ -617,7 +634,26 @@ a {
 }
 
 .projectdiv.project-bodhitree {
-  background-image: url('../images/bodhiTree-screens.png');
+  width: 35vw;
+  min-width: 35vw;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-style: none;
+  border-radius: 20px;
+  background-image: url('../images/theHive-screens.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  opacity: 1;
+  outline-color: #fff;
+  outline-offset: 0px;
+  outline-style: none;
+  outline-width: 3px;
 }
 
 .projectdiv.project-jennyhutton {
@@ -627,6 +663,8 @@ a {
 .projecttitle {
   margin-top: 0px;
   margin-bottom: -20px;
+  padding-right: 20px;
+  padding-left: 20px;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
@@ -637,7 +675,10 @@ a {
 }
 
 .projectsubtitle {
-  width: 60ch;
+  width: 35ch;
+  margin-top: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
@@ -652,9 +693,10 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  min-width: 100%;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-left: 0px;
+  padding: 20px 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -671,10 +713,12 @@ a {
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .image-4 {
+  width: 250px;
+  height: 250px;
   margin-top: 0px;
   margin-bottom: 50px;
 }
@@ -723,7 +767,10 @@ a {
 }
 
 .projectcasestudy-linktext {
+  margin-top: 10px;
   margin-left: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
   font-weight: 200;
 }
 
@@ -738,6 +785,180 @@ a {
   line-height: 1.2;
   font-weight: 200;
   text-align: center;
+}
+
+.about-sectioncontainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  min-height: 100vh;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.image-6 {
+  width: 250px;
+  height: 250px;
+}
+
+.image-7 {
+  width: 250px;
+  height: 250px;
+}
+
+.image-8 {
+  width: 250px;
+  height: 250px;
+}
+
+.centeralign {
+  display: block;
+  text-align: center;
+}
+
+.recentwork-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: space-around;
+  -ms-flex-line-pack: distribute;
+  align-content: space-around;
+  grid-auto-flow: row;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.projectcard {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35vw;
+  height: 50vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.projectimage-background {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.projectimage-background.bodhitreeproject {
+  border-radius: 20px;
+  background-image: url('../images/bodhiTree-screens.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.projectimage-background.thehive-project {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  border-radius: 20px;
+  background-image: url('../images/theHive-screens.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.projectimage-background.davidshipper-project {
+  border-radius: 20px;
+  background-image: url('../images/davidShipper-screens.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.projectimage-background.jennysits-project {
+  border-radius: 20px;
+  background-image: url('../images/jennySits-screens.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.projectimage-background.luxefashion-project {
+  border-radius: 20px;
+  background-image: url('../images/luxe-screens.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.projectlinkblock {
+  width: 35vw;
+  height: 50vh;
 }
 
 @media screen and (min-width: 1920px) {
@@ -907,7 +1128,7 @@ a {
   }
 
   .projectdetails {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
   }
 
   .image-4 {
@@ -932,6 +1153,28 @@ a {
 
   .menu-button.w--open {
     background-color: #030303;
+  }
+
+  .recentwork-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .projectcard {
+    width: 100vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .projectlinkblock {
+    width: 100vw;
   }
 }
 
@@ -983,8 +1226,23 @@ a {
     margin-left: 0px;
   }
 
+  .abouttext-paragraph {
+    width: 30ch;
+  }
+
+  .abouttext-paragraph.finalparagraph {
+    width: 30ch;
+  }
+
   .projectsubtitle {
-    width: 26ch;
+    width: 40ch;
+  }
+
+  .projectdetails {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 
   .image-4 {
@@ -997,6 +1255,34 @@ a {
 
   .projectcasestudy-linktext {
     margin-left: 25px;
+  }
+
+  .about-sectioncontainer {
+    min-height: 75vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .projectcard {
+    width: 95vw;
+    height: 50vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .projectimage-background.bodhitreeproject {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
@@ -1027,9 +1313,14 @@ a {
   }
 
   .abouttext-paragraph {
+    width: 40ch;
     padding-right: 25px;
     padding-left: 25px;
     font-size: 0.8em;
+  }
+
+  .abouttext-paragraph.finalparagraph {
+    width: 30ch;
   }
 
   .aboutpage-h1 {
@@ -1058,12 +1349,12 @@ a {
   .projectdetails {
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-top: 0px;
+    padding-top: 20px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 0px 0px 20px 20px;
     background-color: rgba(0, 0, 0, 0.75);
   }
 
@@ -1122,7 +1413,7 @@ a {
   grid-row-end: span 1;
 }
 
-#w-node-f5a73424-6331-4cf3-5d8b-6044d9e5cf64-c1da4d7e {
+#w-node-c4e0cce0-57fa-27bc-3d2b-173a78d3273e-c1da4d7e {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -1133,7 +1424,7 @@ a {
   grid-row-end: span 1;
 }
 
-#w-node-_8ca7c12d-e8da-2443-cd57-a1aca6927e7d-01d3f08e {
+#w-node-bb592e21-db13-83b9-483e-53d86a4ac74d-01d3f08e {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -1144,7 +1435,7 @@ a {
   grid-row-end: span 1;
 }
 
-#w-node-f88197a0-d52d-3197-4bc5-1b7b3e9b9295-9dbcec4e {
+#w-node-f469cd54-3b6f-e654-bf67-31f3789026a2-9dbcec4e {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -1155,7 +1446,29 @@ a {
   grid-row-end: span 1;
 }
 
-#w-node-c9f3969e-437c-6154-e96d-90d87f9fb445-b78f8bdd {
+#w-node-_83ec451b-eb74-2030-5d29-176e58718bbc-b78f8bdd {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-f2170bb7-f0ef-8bc3-21bb-e5473e8b305f-cf22a97d {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-d61a8031-5922-ca7e-609f-d69c271adc67-4e3e733c {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
