@@ -775,12 +775,13 @@ a {
 }
 
 .casestudy-header-h1 {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   text-align: center;
 }
 
 .casestudy-header-h2 {
   margin-top: 0px;
+  margin-bottom: 50px;
   font-size: 1.5rem;
   line-height: 1.2;
   font-weight: 200;
@@ -961,6 +962,137 @@ a {
   height: 50vh;
 }
 
+.casestudy-body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.casestudy-mainimage {
+  display: block;
+  width: 100vw;
+  height: 50vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0px;
+  background-image: url('../images/bodhiTree-screens.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.mainprojectimage {
+  display: block;
+  width: 50vw;
+  max-height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.casestudy-text {
+  width: 100vw;
+}
+
+.casestudy-textcontainer {
+  padding-right: 0px;
+  padding-left: 50px;
+}
+
+.casestudy-sectiontitle {
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 900;
+}
+
+.casestudy-sectiontext {
+  width: 60ch;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.bold-text-3 {
+  font-weight: 500;
+}
+
+.list {
+  width: 60ch;
+}
+
+.list-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.list-item.casestudy-listitem {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.casestudy-listitem {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.cardnav-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.cardnav-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.cardnav-card-div:hover {
+  color: #08bfa4;
+}
+
+.cardnav-linkblock {
+  padding: 50px;
+}
+
+.cardnav-cardtitle {
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 700;
+}
+
 @media screen and (min-width: 1920px) {
   .herosection-h1 {
     font-size: 6em;
@@ -987,6 +1119,18 @@ a {
     font-size: 5em;
   }
 
+  .worksection {
+    min-height: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
   .projectdiv {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1002,6 +1146,51 @@ a {
   .image-4 {
     margin-top: 0px;
     margin-bottom: 50px;
+  }
+
+  .recentwork-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .projectcard {
+    width: 35vw;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: space-around;
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
   }
 }
 
@@ -1284,6 +1473,23 @@ a {
     -ms-flex-align: center;
     align-items: center;
   }
+
+  .cardnav-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .cardnav-linkblock {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .cardnav-linkblock:hover {
+    color: #09ccae;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1469,6 +1675,17 @@ a {
 }
 
 #w-node-d61a8031-5922-ca7e-609f-d69c271adc67-4e3e733c {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-d61a8031-5922-ca7e-609f-d69c271adc67-3ca51044 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
