@@ -1192,7 +1192,7 @@ a {
 }
 
 .aboutslider {
-  height: 100vh;
+  height: 90vh;
   background-color: #030303;
 }
 
@@ -1320,6 +1320,15 @@ a {
     -webkit-align-content: space-around;
     -ms-flex-line-pack: distribute;
     align-content: space-around;
+  }
+
+  .slider-slidetext {
+    font-size: 2rem;
+  }
+
+  .image-9 {
+    width: 300px;
+    height: 300px;
   }
 }
 
@@ -1505,7 +1514,7 @@ a {
   }
 
   .aboutslider {
-    height: 100vh;
+    height: 90vh;
   }
 
   .cta-h1 {
@@ -1751,8 +1760,20 @@ a {
     width: 30ch;
   }
 
+  .aboutslider {
+    height: 75vh;
+  }
+
   .cta-h1 {
     font-size: 1rem;
+  }
+
+  .right-arrow {
+    opacity: 0;
+  }
+
+  .left-arrow {
+    opacity: 0;
   }
 }
 
