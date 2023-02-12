@@ -86,7 +86,7 @@ a {
   margin: 42px auto 25px;
   padding: 15px 20px;
   border-radius: 10px;
-  background-color: #037d6f;
+  background-color: #10a58f;
   text-align: center;
   -o-object-fit: fill;
   object-fit: fill;
@@ -530,10 +530,10 @@ a {
 .abouttext-paragraph {
   display: block;
   width: 40ch;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
-  padding: 20px 0px 40px;
+  padding: 0px;
   font-size: 1.5em;
   text-align: left;
   white-space: normal;
@@ -721,11 +721,18 @@ a {
   height: 250px;
   margin-top: 0px;
   margin-bottom: 50px;
+  padding-right: 0px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 .fontawesome-arrow {
   font-family: 'Fa solid 900', sans-serif;
-  font-size: 1em;
+  color: #09ccae;
+  font-size: 3rem;
+  font-weight: 400;
 }
 
 .text-block-2 {
@@ -1093,6 +1100,128 @@ a {
   font-weight: 700;
 }
 
+.arrowdown-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -150px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-block-3 {
+  text-align: center;
+}
+
+.slidersection {
+  background-color: #030303;
+}
+
+.slider {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #030303;
+}
+
+.slider-slide {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.slider-slide-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #030303;
+}
+
+.slider-slidetext {
+  width: 30ch;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.image-9 {
+  width: 250px;
+  height: 250px;
+}
+
+.aboutslider {
+  height: 100vh;
+  background-color: #030303;
+}
+
+.cta-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.cta-h1 {
+  text-align: center;
+}
+
 @media screen and (min-width: 1920px) {
   .herosection-h1 {
     font-size: 6em;
@@ -1365,6 +1494,23 @@ a {
   .projectlinkblock {
     width: 100vw;
   }
+
+  .slider-slidetext {
+    font-size: 1rem;
+  }
+
+  .image-9 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .aboutslider {
+    height: 100vh;
+  }
+
+  .cta-h1 {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1490,6 +1636,18 @@ a {
   .cardnav-linkblock:hover {
     color: #09ccae;
   }
+
+  .slider-slide-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .cta-h1 {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1504,6 +1662,10 @@ a {
 
   .herosection-h3 {
     font-size: 1em;
+  }
+
+  .primarybutton {
+    font-size: 1rem;
   }
 
   .servicesh2 {
@@ -1583,6 +1745,14 @@ a {
   .projectcasestudy-linktext {
     margin-right: -50px;
     margin-left: 150px;
+  }
+
+  .slider-slidetext {
+    width: 30ch;
+  }
+
+  .cta-h1 {
+    font-size: 1rem;
   }
 }
 
