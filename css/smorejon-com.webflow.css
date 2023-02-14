@@ -395,7 +395,7 @@ a {
 .servicesdiv:hover {
   outline-color: #05d4b3;
   outline-offset: 0px;
-  outline-style: solid;
+  outline-style: none;
   outline-width: 1px;
 }
 
@@ -416,6 +416,14 @@ a {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.servicesh1.servicespage {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 .servicessection {
@@ -1023,7 +1031,24 @@ a {
 }
 
 .casestudy-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 100vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .casestudy-textcontainer {
@@ -1186,9 +1211,11 @@ a {
   text-align: left;
 }
 
-.image-9 {
+.slider-images {
   width: 250px;
   height: 250px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .aboutslider {
@@ -1219,6 +1246,25 @@ a {
 }
 
 .cta-h1 {
+  text-align: center;
+}
+
+.services-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.heading-3 {
   text-align: center;
 }
 
@@ -1326,7 +1372,7 @@ a {
     font-size: 2rem;
   }
 
-  .image-9 {
+  .slider-images {
     width: 300px;
     height: 300px;
   }
@@ -1508,7 +1554,7 @@ a {
     font-size: 1rem;
   }
 
-  .image-9 {
+  .slider-images {
     width: 200px;
     height: 200px;
   }
@@ -1777,7 +1823,7 @@ a {
   }
 }
 
-#w-node-a029af63-bd0a-2444-0e7d-e272d823bf98-9e1ce6a9 {
+#w-node-_10736ea5-c4e0-a7f5-028b-d8db9d1a5bcf-9d1a5bb2 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
