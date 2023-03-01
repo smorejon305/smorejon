@@ -419,7 +419,7 @@ a {
   min-width: 100%;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 20px 0px;
+  padding: 20px 0px 20px 50px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -572,7 +572,7 @@ a {
   -ms-flex-direction: row;
   flex-direction: row;
   border-radius: 0px;
-  background-image: url('../images/bodhiTree-screens.png');
+  background-image: url('../images/Bodhi-Tree-Case-Study---main-screens.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -663,9 +663,10 @@ a {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 0px;
-  background-image: url('../images/bodhiTree-screens.png');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: url('../images/BodhiTreeHeader.png');
+  background-position: 50% 80%;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
@@ -675,6 +676,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: 100vw;
+  padding-top: 50px;
+  padding-bottom: 50px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -696,7 +699,7 @@ a {
 }
 
 .casestudy-sectiontitle {
-  font-family: gill-sans-nova, sans-serif;
+  font-family: 'Gilroy webfont', sans-serif;
   font-weight: 900;
 }
 
@@ -1190,6 +1193,65 @@ a {
   font-family: 'Fa solid 900', sans-serif;
 }
 
+.casestudy-projectimages {
+  width: 100%;
+  height: 50vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url('../images/Bodhi-Tree-Case-Study---main-screens.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.styleguide-colors {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.clr--neutral-900 {
+  background-color: #010101;
+}
+
+.clr-blue-800 {
+  background-color: #001330;
+}
+
+.clr-green-400 {
+  background-color: #08ebc6;
+}
+
+.clr-gradient-toptobottom {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#011330), to(#08ebc6));
+  background-image: linear-gradient(180deg, #011330, #08ebc6);
+}
+
+.div-block-3 {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#011330), to(#08ebc6));
+  background-image: linear-gradient(0deg, #011330, #08ebc6);
+}
+
+.div-block-3-copy {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#011330), to(#08ebc6));
+  background-image: linear-gradient(0deg, #011330, #08ebc6);
+}
+
+.clr-gradient-bottomtotop {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#011330), to(#08ebc6));
+  background-image: linear-gradient(0deg, #011330, #08ebc6);
+}
+
+.clr-neutral-100 {
+  background-color: #f5f5f5;
+  color: #000;
+}
+
+.div-block-4 {
+  background-color: #0dc6d3;
+}
+
 @media screen and (min-width: 1920px) {
   .herosection-h1 {
     font-size: 6em;
@@ -1376,6 +1438,7 @@ a {
 
   .projectdetails {
     margin-bottom: 0px;
+    padding-left: 30px;
   }
 
   .nav-menu {
@@ -1408,8 +1471,20 @@ a {
     margin-bottom: 30px;
   }
 
+  .projectimage-background.bodhitreeproject {
+    background-position: 50% 100%;
+  }
+
   .projectlinkblock {
     width: 100vw;
+  }
+
+  .casestudy-sectiontext {
+    width: 50ch;
+  }
+
+  .casestudy-listitem {
+    width: 45ch;
   }
 
   .slider-slidetext {
@@ -1482,6 +1557,7 @@ a {
   }
 
   .projectdetails {
+    padding-left: 10px;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
@@ -1514,6 +1590,23 @@ a {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    background-image: url('../images/Bodhi-Tree-Case-Study---main-screens.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+
+  .casestudy-mainimage {
+    height: auto;
+    min-height: 50vh;
+  }
+
+  .casestudy-sectiontext {
+    width: 35ch;
+  }
+
+  .casestudy-listitem {
+    width: 30ch;
   }
 
   .cardnav-linkblock {
@@ -1694,6 +1787,7 @@ a {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 20px;
+    padding-left: 0px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -1704,6 +1798,18 @@ a {
 
   .heading {
     font-size: 2em;
+  }
+
+  .casestudy-mainimage {
+    background-size: contain;
+  }
+
+  .casestudy-sectiontext {
+    width: 20ch;
+  }
+
+  .casestudy-listitem {
+    width: 15ch;
   }
 
   .cardnav-section {
@@ -1848,7 +1954,7 @@ a {
   grid-row-end: span 1;
 }
 
-#w-node-d61a8031-5922-ca7e-609f-d69c271adc67-4e3e733c {
+#w-node-d61a8031-5922-ca7e-609f-d69c271adc67-3ca51044 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -1859,7 +1965,7 @@ a {
   grid-row-end: span 1;
 }
 
-#w-node-d61a8031-5922-ca7e-609f-d69c271adc67-3ca51044 {
+#w-node-d61a8031-5922-ca7e-609f-d69c271adc67-2caf9d53 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
