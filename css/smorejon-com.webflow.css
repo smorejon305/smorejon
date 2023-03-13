@@ -1,7 +1,7 @@
 body {
   background-color: #010101;
   font-family: Visbycf, sans-serif;
-  color: #fff;
+  color: #f5f5f5;
   font-size: 16px;
   line-height: 1.4;
   font-weight: 300;
@@ -52,19 +52,6 @@ a {
   align-items: center;
 }
 
-.herosection-h1 {
-  margin-top: 0px;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #09ccae), color-stop(76%, #017e6f));
-  background-image: linear-gradient(180deg, #09ccae 40%, #017e6f 76%);
-  font-family: 'Gilroy webfont', sans-serif;
-  font-size: 5em;
-  font-weight: 700;
-  text-align: center;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .herosection-h2 {
   font-family: Visbycf, sans-serif;
   font-size: 1.5em;
@@ -77,13 +64,6 @@ a {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
-}
-
-.herosection-imagelogo {
-  display: block;
-  max-height: 33vh;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .herosection-h3 {
@@ -134,7 +114,7 @@ a {
 }
 
 .primarybutton.headerbutton:hover {
-  color: #06d2b1;
+  color: #08bfa4;
 }
 
 .navbar {
@@ -151,7 +131,7 @@ a {
 }
 
 .navlink:hover {
-  color: #07b99f;
+  color: #08bfa4;
 }
 
 .navlink.w--current {
@@ -218,6 +198,10 @@ a {
   margin-right: 10px;
   margin-left: 10px;
   font-size: 1.5em;
+}
+
+.sociallink:hover {
+  color: #08bfa4;
 }
 
 .socialwrapper {
@@ -343,26 +327,6 @@ a {
   flex-direction: column;
 }
 
-.bloomembed-div {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  max-height: none;
-  min-height: auto;
-  min-width: auto;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .worksection {
   display: -webkit-box;
   display: -webkit-flex;
@@ -437,6 +401,14 @@ a {
   -ms-flex-item-align: end;
   align-self: flex-end;
   background-color: rgba(0, 0, 0, 0.75);
+}
+
+.projectdetails:hover {
+  color: #08bfa4;
+}
+
+.heading {
+  color: #f5f5f5;
 }
 
 .fontawesome-arrow {
@@ -546,6 +518,10 @@ a {
   cursor: pointer;
 }
 
+.projectcard:hover {
+  color: #f5f5f5;
+}
+
 .projectimage-background {
   display: -webkit-box;
   display: -webkit-flex;
@@ -603,8 +579,8 @@ a {
 
 .projectimage-background.davidshipper-project {
   border-radius: 20px;
-  background-image: url('../images/davidShipper-screens.png');
-  background-position: 50% 50%;
+  background-image: url('../images/DavidShipper2023-screens.png');
+  background-position: 50% 0%;
   background-size: cover;
 }
 
@@ -1092,6 +1068,10 @@ a {
   text-align: center;
 }
 
+.cardnav-h1:hover {
+  color: #08bfa4;
+}
+
 .dropdown-toggle {
   color: #f5f5f5;
 }
@@ -1228,16 +1208,6 @@ a {
   background-image: linear-gradient(180deg, #011330, #08ebc6);
 }
 
-.div-block-3 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#011330), to(#08ebc6));
-  background-image: linear-gradient(0deg, #011330, #08ebc6);
-}
-
-.div-block-3-copy {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#011330), to(#08ebc6));
-  background-image: linear-gradient(0deg, #011330, #08ebc6);
-}
-
 .clr-gradient-bottomtotop {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#011330), to(#08ebc6));
   background-image: linear-gradient(0deg, #011330, #08ebc6);
@@ -1252,11 +1222,42 @@ a {
   background-color: #0dc6d3;
 }
 
-@media screen and (min-width: 1920px) {
-  .herosection-h1 {
-    font-size: 6em;
-  }
+.homepage-worksection-flexdiv {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+}
 
+.homepage-worksection-cards-div {
+  width: 100%;
+  min-height: 50vh;
+}
+
+.homepage-worksection-cardimage {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.heading-3 {
+  text-align: center;
+}
+
+@media screen and (min-width: 1920px) {
   .herosection-h2 {
     font-size: 2em;
   }
@@ -1338,10 +1339,6 @@ a {
 }
 
 @media screen and (max-width: 991px) {
-  .herosection-h1 {
-    font-size: 4em;
-  }
-
   .herosection-h3 {
     line-height: 1.4;
   }
@@ -1523,11 +1520,6 @@ a {
 }
 
 @media screen and (max-width: 767px) {
-  .herosection-h1 {
-    font-size: 3em;
-    font-weight: 900;
-  }
-
   .herosection-h2 {
     margin-top: 0px;
     font-size: 1em;
@@ -1740,11 +1732,6 @@ a {
 }
 
 @media screen and (max-width: 479px) {
-  .herosection-h1 {
-    font-size: 1.7em;
-    line-height: 1.2;
-  }
-
   .herosection-h2 {
     width: 100%;
     margin-top: 0px;
