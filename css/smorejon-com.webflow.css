@@ -243,7 +243,7 @@ a {
 }
 
 .worksection {
-  min-height: 100vh;
+  min-height: auto;
   border-radius: 0;
   flex-flow: column wrap;
   align-content: space-around;
@@ -266,11 +266,17 @@ a {
   width: 100%;
   align-self: flex-start;
   margin-top: 30px;
+  margin-bottom: 0;
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 400;
   line-height: 1.2;
+}
+
+.projectsubtitle.h4 {
+  margin-top: 10px;
+  font-size: 1em;
 }
 
 .projectdetails {
@@ -374,7 +380,7 @@ a {
 
 .projectimage-background.bodhitreeproject {
   height: 100%;
-  background-image: url('../images/Bodhi-Tree-Case-Study---main-screens.png');
+  background-image: url('../images/BodhiTree-screens.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -396,7 +402,7 @@ a {
 
 .projectimage-background.davidshipper-project {
   background-image: url('../images/DavidShipper2023-screens.png');
-  background-position: 50% 0;
+  background-position: 50%;
   background-size: cover;
   border-radius: 20px;
 }
@@ -413,6 +419,12 @@ a {
   background-position: 50%;
   background-size: cover;
   border-radius: 20px;
+}
+
+.projectimage-background.csphoto-project {
+  background-image: url('../images/CatherineShiflettPhotography--screens.png');
+  background-position: 50%;
+  background-size: cover;
 }
 
 .projectlinkblock {
@@ -1343,7 +1355,7 @@ a {
   }
 }
 
-#w-node-_10736ea5-c4e0-a7f5-028b-d8db9d1a5bcf-9d1a5bb2, #w-node-c4e0cce0-57fa-27bc-3d2b-173a78d3273e-c1da4d7e, #w-node-bb592e21-db13-83b9-483e-53d86a4ac74d-01d3f08e, #w-node-f469cd54-3b6f-e654-bf67-31f3789026a2-9dbcec4e, #w-node-_83ec451b-eb74-2030-5d29-176e58718bbc-b78f8bdd, #w-node-f2170bb7-f0ef-8bc3-21bb-e5473e8b305f-cf22a97d, #w-node-d61a8031-5922-ca7e-609f-d69c271adc67-3ca51044, #w-node-d61a8031-5922-ca7e-609f-d69c271adc67-2caf9d53 {
+#w-node-_10736ea5-c4e0-a7f5-028b-d8db9d1a5bcf-9d1a5bb2, #w-node-bb592e21-db13-83b9-483e-53d86a4ac74d-01d3f08e, #w-node-f469cd54-3b6f-e654-bf67-31f3789026a2-9dbcec4e, #w-node-_83ec451b-eb74-2030-5d29-176e58718bbc-b78f8bdd, #w-node-f2170bb7-f0ef-8bc3-21bb-e5473e8b305f-cf22a97d, #w-node-d61a8031-5922-ca7e-609f-d69c271adc67-3ca51044, #w-node-d61a8031-5922-ca7e-609f-d69c271adc67-2caf9d53 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
