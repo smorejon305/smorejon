@@ -883,6 +883,40 @@ a {
   text-align: center;
 }
 
+.affiliatelinks-section {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.affiliatelinks-wrapper {
+  width: 100vw;
+  height: 20vh;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  display: flex;
+}
+
+.notionaffiliate-link {
+  width: 100%;
+  height: 100%;
+  flex: 0 auto;
+  align-self: center;
+  padding-top: 50px;
+}
+
+.notionaffiliate-link:hover {
+  color: #08bfa4;
+}
+
+.text-block {
+  text-align: center;
+}
+
 @media screen and (min-width: 1920px) {
   .herosection-h2 {
     font-size: 2em;
@@ -1243,12 +1277,16 @@ a {
 
   .projecttitle {
     background-color: rgba(0, 0, 0, 0);
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   .projectsubtitle {
     width: 100%;
     background-color: rgba(0, 0, 0, 0);
+    font-size: 1em;
+  }
+
+  .projectsubtitle.h4 {
     font-size: .8em;
   }
 
@@ -1352,6 +1390,10 @@ a {
 
   .body-2 {
     overflow: hidden;
+  }
+
+  .text-block {
+    font-size: .8em;
   }
 }
 
