@@ -923,6 +923,31 @@ a {
   text-align: center;
 }
 
+.newslettersignup-section {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.newslettersignup-text {
+  text-align: center;
+}
+
+.newslettersignup-h2 {
+  text-align: center;
+  font-weight: 300;
+  display: block;
+}
+
+.largertext {
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
 @media screen and (min-width: 1920px) {
   .herosection-h2 {
     font-size: 2em;
