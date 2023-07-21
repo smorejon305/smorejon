@@ -427,6 +427,12 @@ a {
   background-size: cover;
 }
 
+.projectimage-background.renommeevent-project {
+  background-image: url('../images/Renomme_screens.png');
+  background-position: 50% 100%;
+  background-size: cover;
+}
+
 .projectlinkblock {
   width: 100vw;
   height: 50vh;
