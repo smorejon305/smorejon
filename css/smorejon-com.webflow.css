@@ -41,6 +41,7 @@ a {
 
 .herosection-h1 {
   text-align: center;
+  margin-bottom: 25px;
   font-family: Visbycf, sans-serif;
   font-size: 1.5em;
   font-weight: 100;
@@ -192,8 +193,10 @@ a {
 }
 
 .contactform-embedsection {
-  max-height: none;
+  max-height: 100vh;
   max-width: 100vw;
+  min-height: auto;
+  background-color: #010101;
 }
 
 .servicesh2 {
@@ -221,25 +224,6 @@ a {
   margin-bottom: 0;
   padding-top: 50px;
   padding-bottom: 50px;
-}
-
-.servicesdiv-title {
-  text-align: left;
-  align-self: center;
-}
-
-.servicessection {
-  justify-content: space-around;
-  align-items: center;
-  margin: 50px 25px;
-  display: flex;
-}
-
-.servicescontainer {
-  flex-direction: column;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  display: flex;
 }
 
 .worksection {
@@ -598,54 +582,8 @@ a {
   display: flex;
 }
 
-.secondarynav-services {
-  z-index: 888;
-  background-color: #030303;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  display: flex;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-
-.secondarynav-services-linkblock {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.secondarynav-services-linktext {
-  font-size: 1rem;
-  font-weight: 300;
-  line-height: 1.2;
-}
-
-.secondarynav-services-linktext:hover {
-  color: #069d85;
-  font-weight: 700;
-}
-
 .bold-text-4 {
   font-weight: 400;
-}
-
-.servicespage-servicediv {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.servicesdescription-paragraph {
-  width: 60ch;
-}
-
-.servicesdescription-flexdiv {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
 }
 
 .coreservices-section {
@@ -686,11 +624,6 @@ a {
   line-height: .8;
 }
 
-.services-h1.floatingheader {
-  text-align: left;
-  align-self: flex-start;
-}
-
 .fontawesome-solid {
   color: #06caac;
   text-align: center;
@@ -718,13 +651,6 @@ a {
   margin-bottom: 0;
   font-family: Gilroy webfont, sans-serif;
   font-weight: 700;
-}
-
-.additionalservices-container {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
 }
 
 .servicescard-header {
@@ -881,28 +807,6 @@ a {
   background-color: #0dc6d3;
 }
 
-.homepage-worksection-flexdiv {
-  flex-wrap: wrap;
-  align-content: stretch;
-  display: flex;
-}
-
-.homepage-worksection-cards-div {
-  width: 100%;
-  min-height: 50vh;
-}
-
-.homepage-worksection-cardimage {
-  width: 100%;
-  height: 100%;
-  align-items: center;
-  display: flex;
-}
-
-.heading-3 {
-  text-align: center;
-}
-
 .affiliatelinks-section {
   flex-direction: column;
   justify-content: center;
@@ -946,10 +850,6 @@ a {
   display: flex;
 }
 
-.newslettersignup-text {
-  text-align: center;
-}
-
 .newslettersignup-h2 {
   text-align: center;
   font-weight: 300;
@@ -968,6 +868,41 @@ a {
 
 .sliderh1 {
   margin-bottom: 20px;
+}
+
+.contactpage-content {
+  width: 100vw;
+  height: auto;
+  min-height: 60vh;
+  background-color: #010101;
+}
+
+.preloader {
+  width: 100%;
+  height: auto;
+  min-height: auto;
+  text-align: center;
+  background-color: #010101;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: none;
+}
+
+.preloader1 {
+  width: auto;
+  height: auto;
+  background-color: #010101;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 2em;
+  display: flex;
+}
+
+.html-embed {
+  background-color: #010101;
 }
 
 @media screen and (min-width: 1920px) {
@@ -1061,17 +996,6 @@ a {
     font-size: 4.8em;
   }
 
-  .servicessection {
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 100px;
-  }
-
-  .servicescontainer {
-    justify-content: space-around;
-    display: flex;
-  }
-
   .projectdetails {
     margin-bottom: 0;
     padding-left: 30px;
@@ -1123,10 +1047,6 @@ a {
 
   .cta-h1 {
     font-size: 2rem;
-  }
-
-  .servicesdescription-flexdiv {
-    align-items: flex-start;
   }
 
   .services-h1 {
@@ -1225,15 +1145,6 @@ a {
     font-size: 1.5rem;
   }
 
-  .secondarynav-services {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .servicesdescription-paragraph {
-    width: 40ch;
-  }
-
   .coreservices-section {
     padding-top: 0;
   }
@@ -1324,10 +1235,6 @@ a {
     font-size: 2.5rem;
   }
 
-  .servicessection {
-    margin-left: 10px;
-  }
-
   .projecttitle {
     background-color: rgba(0, 0, 0, 0);
     font-size: 2em;
@@ -1398,10 +1305,6 @@ a {
     opacity: 0;
   }
 
-  .servicesdescription-paragraph {
-    width: 30ch;
-  }
-
   .fontawesome-solid {
     text-align: center;
   }
@@ -1413,10 +1316,6 @@ a {
   .servicestitle {
     margin-bottom: 0;
     font-size: 2.5rem;
-  }
-
-  .additionalservices-container {
-    flex-direction: column;
   }
 
   .servicescard-header {
