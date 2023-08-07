@@ -873,7 +873,7 @@ a {
 .contactpage-content {
   width: 100vw;
   height: auto;
-  min-height: 60vh;
+  min-height: 30vh;
   background-color: #010101;
 }
 
