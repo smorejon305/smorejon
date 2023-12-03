@@ -203,37 +203,6 @@ a {
   background-color: var(--clr-neutral-100);
 }
 
-.section-fullscreen {
-  width: 100vw;
-  height: 100vh;
-  background-color: var(--clr-brand1-500);
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  overflow: hidden;
-  transform: rotate(0);
-}
-
-.section-fullscreen.brandcolor1-300 {
-  background-color: var(--clr-brand1-300);
-  justify-content: flex-end;
-}
-
-.testpage-h1 {
-  perspective: 385px;
-  transform-origin: 50%;
-  direction: ltr;
-  color: var(--clr-brand1-500);
-  order: 1;
-  align-self: auto;
-  margin-bottom: 0;
-  font-family: gill-sans-nova, sans-serif;
-  font-size: 10em;
-  line-height: 1.2;
-  transform: none;
-}
-
 .colorblock-section {
   width: 100vw;
   height: 20vh;
@@ -324,10 +293,6 @@ a {
   color: var(--clr-brand2-300);
 }
 
-.column-header.red.subsection {
-  font-size: 4em;
-}
-
 .column-header.red.subheader {
   margin-top: 0;
   margin-bottom: 0;
@@ -416,6 +381,7 @@ a {
 }
 
 .navbar {
+  max-width: 100vw;
   background-color: var(--clr-neutral-900);
   justify-content: space-between;
   display: flex;
@@ -447,6 +413,7 @@ a {
 .footer-section {
   width: 100vw;
   height: auto;
+  max-width: 100vw;
   background-color: var(--clr-neutral-900);
   margin-top: 50px;
   margin-bottom: 50px;
@@ -562,6 +529,7 @@ a {
 .featuredwork-section {
   width: 100%;
   height: auto;
+  max-width: 100vw;
   min-height: 100vh;
   background-color: var(--clr-neutral-900);
 }
@@ -656,6 +624,11 @@ a {
   background-image: url('../images/DavidShipper2023-screens.png');
 }
 
+.featuredwork-griddiv.merkaba {
+  background-image: url('../images/MerkabaLogo-12.png');
+  background-position: 50%;
+}
+
 .featuredwork-griddiv-header {
   width: 100%;
   height: 100%;
@@ -718,6 +691,7 @@ a {
 .hero-section {
   width: 100vw;
   height: 80vh;
+  max-width: 100vw;
 }
 
 .hero-divwrapper {
@@ -734,6 +708,7 @@ a {
 .services-section {
   width: 100vw;
   height: auto;
+  max-width: 100vw;
   min-height: 60vh;
   background-color: var(--clr-neutral-900);
   color: var(--clr-neutral-100);
@@ -856,10 +831,6 @@ a {
   margin-bottom: 10px;
 }
 
-.hr.white.vertical {
-  transform: translate(38px)rotate(-90deg);
-}
-
 .section-introp {
   width: 60ch;
   margin-bottom: 0;
@@ -872,13 +843,6 @@ a {
   height: 100px;
 }
 
-.container {
-  width: 100%;
-  justify-content: space-around;
-  align-items: center;
-  display: block;
-}
-
 .hero-flexdiv {
   width: 100%;
   height: 100%;
@@ -886,15 +850,6 @@ a {
   justify-content: center;
   align-items: center;
   display: flex;
-}
-
-.hero-flexdiv.left {
-  width: 20%;
-  height: auto;
-  text-align: left;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
 
 .hero-flexdiv.right {
@@ -942,22 +897,6 @@ a {
   color: var(--clr-brand3-300);
 }
 
-.hero-logodiv {
-  width: 20%;
-  height: 100%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-.services-column {
-  width: 100%;
-  height: 100%;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 .services-imgdiv {
   width: 100%;
   height: 100%;
@@ -983,7 +922,69 @@ a {
 }
 
 .services-imgdiv.content {
-  background-image: url('../images/smorejon_cool_image_of_seo_analytics_research_03542ed4-f7f7-4698-80c8-6cfb9ada3953.webp');
+  background-image: url('../images/getting-some-blog-inspiration-2023-11-27-05-15-53-utc-1.webp');
+}
+
+.services-imgdiv.visualidentity {
+  background-image: url('../images/color-swatches-of-graphic-designers-putting-on-des-2023-03-13-21-39-15-utc.webp');
+}
+
+.services-imgdiv.userjourney {
+  background-image: url('../images/audience-segmentation-or-customer-segregation-mar-2023-11-27-05-11-47-utc-1.webp');
+  background-position: 50%;
+}
+
+.services-imgdiv.userpersona {
+  background-image: url('../images/collage-of-diverse-people-headshots-over-white-and-2023-11-27-04-49-04-utc-1.webp');
+  background-position: 50%;
+}
+
+.services-imgdiv.webdesign {
+  background-image: url('../images/top-view-of-website-design-template-near-laptop-c-2023-11-27-05-33-26-utc-1.webp');
+  background-position: 50%;
+}
+
+.services-imgdiv.uiuxdesign {
+  background-image: url('../images/application-designers-ux-ui-are-planning-graph-2021-08-29-13-12-03-utc.webp');
+  background-position: 50% 100%;
+}
+
+.services-imgdiv.wireframes {
+  background-image: url('../images/ux-mobile-application-wireframe-2023-11-27-05-06-47-utc-1.webp');
+  background-position: 50%;
+}
+
+.services-imgdiv.responsive {
+  background-image: url('../images/responsive-design-and-web-devices-2023-11-27-05-32-35-utc-1.webp');
+  background-position: 50%;
+}
+
+.services-imgdiv.logodesign {
+  background-image: url('../images/ForesteaGrid.webp');
+  background-position: 50%;
+}
+
+.services-imgdiv.graphicdesign {
+  background-image: url('../images/Screenshot-2023-11-14-at-16.41.45.png');
+  background-position: 50% 0;
+}
+
+.services-imgdiv.webdev {
+  background-image: url('../images/altumcode-mCj7UinqOYQ-unsplash.webp');
+}
+
+.services-imgdiv.webflow {
+  background-image: url('../images/Screenshot-2023-12-02-at-13.01.35-1.webp');
+}
+
+.services-imgdiv.platformmigration {
+  background-image: url('../images/professional-development-programmer-cooperating-me-2023-11-27-05-15-32-utc-1.webp');
+  background-position: 50% 0;
+}
+
+.services-imgdiv.ecommerce {
+  background-image: url('../images/eCommerceSales.webp');
+  background-position: 50% 35%;
 }
 
 .sectiondiv {
@@ -1008,6 +1009,7 @@ a {
 .maincta {
   width: 100vw;
   height: 50vh;
+  max-width: 100vw;
   background-color: var(--clr-neutral-900);
   background-image: url('../images/SMorejon-banigPattern-fullScreen-thick-31.webp');
   background-position: 50%;
@@ -1078,11 +1080,6 @@ a {
   display: flex;
 }
 
-.about-textdiv.horizontal {
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 .abouttext {
   width: 80%;
   margin-bottom: 20px;
@@ -1125,10 +1122,6 @@ a {
   width: 100%;
 }
 
-.featuredwork-griddiv-subheader {
-  color: var(--clr-neutral-100);
-}
-
 .featuredwork-subheader {
   font-size: .5em;
   font-weight: 300;
@@ -1137,6 +1130,7 @@ a {
 .techstack-section {
   width: 100vw;
   height: auto;
+  max-width: 100vw;
   min-height: 60vh;
   justify-content: center;
   align-items: center;
@@ -1160,18 +1154,6 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  display: flex;
-}
-
-.techstack-textdiv {
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
-  flex-direction: column;
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-columns: 1fr;
-  justify-content: flex-start;
-  align-items: flex-start;
   display: flex;
 }
 
@@ -1200,13 +1182,6 @@ a {
   display: flex;
 }
 
-.techstack-h2 {
-  width: 100%;
-  text-align: center;
-  font-size: 3em;
-  transform: rotate(-90deg);
-}
-
 .featuredwork-cta {
   width: 100%;
   flex-direction: column;
@@ -1215,13 +1190,62 @@ a {
   display: flex;
 }
 
-.spaceelement-10vh {
-  width: 100%;
-  height: 10vh;
-}
-
 .navbar-container {
   width: 80%;
+}
+
+.featuredwork-griddiv-2 {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background-image: url('../images/CatherineShiflettPhotography--screens.webp');
+  background-position: 50%;
+  background-size: cover;
+  background-attachment: scroll;
+  position: static;
+  top: 0%;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.featuredwork-griddiv-2:hover {
+  background-color: #030303;
+  background-image: none;
+  background-size: auto;
+}
+
+.featuredwork-griddiv-2.luxe {
+  background-image: url('../images/luxe-screens.webp');
+}
+
+.featuredwork-griddiv-2.thehive {
+  background-image: url('../images/theHive-screens1.webp');
+}
+
+.featuredwork-griddiv-header-2 {
+  width: 100%;
+  height: 100%;
+  color: rgba(231, 157, 67, 0);
+  text-align: center;
+  object-fit: fill;
+  background-color: rgba(3, 3, 3, 0);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  font-family: gill-sans-nova, sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  display: flex;
+  position: static;
+}
+
+.featuredwork-griddiv-header-2:hover {
+  color: #e79d43;
+  background-color: #030303;
 }
 
 @media screen and (max-width: 991px) {
@@ -1310,13 +1334,6 @@ a {
     height: 75px;
   }
 
-  .container {
-    justify-content: space-between;
-    padding-left: 0;
-    padding-right: 0;
-    display: flex;
-  }
-
   .hero-h1 {
     font-size: 5em;
   }
@@ -1380,6 +1397,10 @@ a {
   .footer-centerdiv, .footer-quicklinks-div {
     flex-direction: column;
     align-items: center;
+  }
+
+  .hero-section {
+    height: 75vh;
   }
 
   .section-introp {
@@ -1504,6 +1525,10 @@ a {
     font-size: 1.5em;
   }
 
+  .hero-section {
+    height: 60vh;
+  }
+
   .services-divwrapper {
     padding-left: 0;
     padding-right: 0;
@@ -1538,9 +1563,13 @@ a {
   .abouttext-subheader, .techstack-container {
     width: 100%;
   }
+
+  .featuredwork-griddiv-header-2 {
+    font-size: 1.5em;
+  }
 }
 
-#w-node-fbd800e3-73a3-9c84-f2a5-4d71470720d2-470720d0, #w-node-fbd800e3-73a3-9c84-f2a5-4d71470720d4-470720d0, #w-node-fbd800e3-73a3-9c84-f2a5-4d71470720dc-470720d0, #w-node-fbd800e3-73a3-9c84-f2a5-4d71470720de-470720d0, #w-node-fbd800e3-73a3-9c84-f2a5-4d71470720e6-470720d0, #w-node-fbd800e3-73a3-9c84-f2a5-4d71470720e8-470720d0, #w-node-fbd800e3-73a3-9c84-f2a5-4d71470720f0-470720d0, #w-node-fbd800e3-73a3-9c84-f2a5-4d71470720f2-470720d0, #w-node-_41f139f2-b8d4-7d8c-65fd-d5e4cb4ade2f-cb4ade2d, #w-node-_41f139f2-b8d4-7d8c-65fd-d5e4cb4ade31-cb4ade2d, #w-node-_41f139f2-b8d4-7d8c-65fd-d5e4cb4ade34-cb4ade2d, #w-node-_41f139f2-b8d4-7d8c-65fd-d5e4cb4ade36-cb4ade2d, #w-node-_41f139f2-b8d4-7d8c-65fd-d5e4cb4ade39-cb4ade2d, #w-node-_41f139f2-b8d4-7d8c-65fd-d5e4cb4ade3b-cb4ade2d, #w-node-_41f139f2-b8d4-7d8c-65fd-d5e4cb4ade40-cb4ade2d, #w-node-_41f139f2-b8d4-7d8c-65fd-d5e4cb4ade42-cb4ade2d, #w-node-e264bfc2-9137-676a-921c-c581993cbbc3-993cbbc1, #w-node-e264bfc2-9137-676a-921c-c581993cbbc5-993cbbc1, #w-node-e264bfc2-9137-676a-921c-c581993cbbc8-993cbbc1, #w-node-e264bfc2-9137-676a-921c-c581993cbbca-993cbbc1, #w-node-_219c9d0a-b7c9-b1a0-9f48-15b41149a77c-993cbbc1, #w-node-_219c9d0a-b7c9-b1a0-9f48-15b41149a77e-993cbbc1, #w-node-e264bfc2-9137-676a-921c-c581993cbbcd-993cbbc1, #w-node-e264bfc2-9137-676a-921c-c581993cbbcf-993cbbc1, #w-node-c56395b4-2b30-e438-b629-aa09acdac7e4-993cbbc1, #w-node-c56395b4-2b30-e438-b629-aa09acdac7e6-993cbbc1, #w-node-e264bfc2-9137-676a-921c-c581993cbbd4-993cbbc1, #w-node-e264bfc2-9137-676a-921c-c581993cbbd6-993cbbc1, #w-node-e8cf1bab-f603-2911-0798-fb23f161c96a-993cbbc1, #w-node-e8cf1bab-f603-2911-0798-fb23f161c96c-993cbbc1, #w-node-_024d9904-1488-fe3c-f1c4-f8bdbd39dbb8-993cbbc1, #w-node-_024d9904-1488-fe3c-f1c4-f8bdbd39dbba-993cbbc1 {
+#w-node-fbd800e3-73a3-9c84-f2a5-4d71470720d2-470720d0, #w-node-fbd800e3-73a3-9c84-f2a5-4d71470720d4-470720d0, #w-node-fbd800e3-73a3-9c84-f2a5-4d71470720dc-470720d0, #w-node-fbd800e3-73a3-9c84-f2a5-4d71470720de-470720d0, #w-node-fbd800e3-73a3-9c84-f2a5-4d71470720e6-470720d0, #w-node-fbd800e3-73a3-9c84-f2a5-4d71470720e8-470720d0, #w-node-fbd800e3-73a3-9c84-f2a5-4d71470720f0-470720d0, #w-node-fbd800e3-73a3-9c84-f2a5-4d71470720f2-470720d0, #w-node-_41f139f2-b8d4-7d8c-65fd-d5e4cb4ade2f-cb4ade2d, #w-node-_41f139f2-b8d4-7d8c-65fd-d5e4cb4ade31-cb4ade2d, #w-node-_41f139f2-b8d4-7d8c-65fd-d5e4cb4ade34-cb4ade2d, #w-node-_41f139f2-b8d4-7d8c-65fd-d5e4cb4ade36-cb4ade2d, #w-node-_41f139f2-b8d4-7d8c-65fd-d5e4cb4ade39-cb4ade2d, #w-node-_41f139f2-b8d4-7d8c-65fd-d5e4cb4ade3b-cb4ade2d, #w-node-_41f139f2-b8d4-7d8c-65fd-d5e4cb4ade40-cb4ade2d, #w-node-_41f139f2-b8d4-7d8c-65fd-d5e4cb4ade42-cb4ade2d, #w-node-e264bfc2-9137-676a-921c-c581993cbbc3-993cbbc1, #w-node-e264bfc2-9137-676a-921c-c581993cbbc5-993cbbc1, #w-node-e264bfc2-9137-676a-921c-c581993cbbc8-993cbbc1, #w-node-e264bfc2-9137-676a-921c-c581993cbbca-993cbbc1, #w-node-_987179c8-ab80-40a7-f5e7-1131320aaa04-993cbbc1, #w-node-_987179c8-ab80-40a7-f5e7-1131320aaa06-993cbbc1, #w-node-_219c9d0a-b7c9-b1a0-9f48-15b41149a77c-993cbbc1, #w-node-_219c9d0a-b7c9-b1a0-9f48-15b41149a77e-993cbbc1, #w-node-e264bfc2-9137-676a-921c-c581993cbbcd-993cbbc1, #w-node-e264bfc2-9137-676a-921c-c581993cbbcf-993cbbc1, #w-node-c56395b4-2b30-e438-b629-aa09acdac7e4-993cbbc1, #w-node-c56395b4-2b30-e438-b629-aa09acdac7e6-993cbbc1, #w-node-e264bfc2-9137-676a-921c-c581993cbbd4-993cbbc1, #w-node-e264bfc2-9137-676a-921c-c581993cbbd6-993cbbc1, #w-node-e8cf1bab-f603-2911-0798-fb23f161c96a-993cbbc1, #w-node-e8cf1bab-f603-2911-0798-fb23f161c96c-993cbbc1, #w-node-_024d9904-1488-fe3c-f1c4-f8bdbd39dbb8-993cbbc1, #w-node-_024d9904-1488-fe3c-f1c4-f8bdbd39dbba-993cbbc1, #w-node-_1f03b9ec-fa14-f3d0-8e68-aee5684b07c7-993cbbc1, #w-node-_1f03b9ec-fa14-f3d0-8e68-aee5684b07c9-993cbbc1 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
