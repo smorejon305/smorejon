@@ -9,37 +9,42 @@
 
 <url>
   <loc>https://smorejon.com/</loc>
-  <lastmod>2023-07-09T22:57:43+00:00</lastmod>
+  <lastmod>2024-04-02T11:39:28+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://smorejon.com/index.html</loc>
-  <lastmod>2023-07-09T22:57:43+00:00</lastmod>
+  <loc>https://smorejon.com/work</loc>
+  <lastmod>2024-04-02T11:39:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://smorejon.com/about.html</loc>
-  <lastmod>2023-07-09T22:57:43+00:00</lastmod>
+  <loc>https://smorejon.com/about</loc>
+  <lastmod>2024-04-02T11:39:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://smorejon.com/services.html</loc>
-  <lastmod>2023-07-09T22:57:43+00:00</lastmod>
+  <loc>https://smorejon.com/contact</loc>
+  <lastmod>2024-04-02T11:39:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://smorejon.com/work.html</loc>
-  <lastmod>2023-07-09T22:57:43+00:00</lastmod>
+  <loc>https://smorejon.com/strategy</loc>
+  <lastmod>2024-04-02T11:39:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://smorejon.com/contact.html</loc>
-  <lastmod>2023-07-09T22:57:43+00:00</lastmod>
+  <loc>https://smorejon.com/design</loc>
+  <lastmod>2024-04-02T11:39:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://smorejon.com/case-studies/bodhi-tree.html</loc>
-  <lastmod>2023-07-09T22:57:43+00:00</lastmod>
+  <loc>https://smorejon.com/development</loc>
+  <lastmod>2024-04-02T11:39:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://smorejon.com/ongoing-services</loc>
+  <lastmod>2024-04-02T11:39:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
