@@ -1367,6 +1367,11 @@ a {
   overflow: hidden;
 }
 
+.casestudy-hero-image.bodhitree {
+  background-image: url('../images/daniele-franchi-GbAEJUJKJ88-unsplash.webp');
+  height: 55vh;
+}
+
 .casestudy-hero-h1 {
   margin-bottom: 0;
   font-size: 4em;
@@ -1400,6 +1405,7 @@ a {
 
 .casestudy-role-listitems {
   margin-top: 0;
+  padding-left: 0;
   font-weight: 200;
 }
 
@@ -1483,6 +1489,7 @@ a {
 
 .list-item {
   margin-top: 16px;
+  list-style-type: disc;
 }
 
 .casestudy-richtext-graphicwrapper {
@@ -1718,6 +1725,10 @@ a {
     justify-content: center;
     align-items: center;
     display: flex;
+  }
+
+  .casestudy-hero-h2 {
+    max-width: 100%;
   }
 
   .centerdiv {
@@ -2007,7 +2018,7 @@ a {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-#w-node-dbf188a7-ab8c-b89c-6d63-7aa0c30111fa-666c96e3, #w-node-_90a31371-a903-3bc9-7f56-babb137ff902-666c96e3, #w-node-_8c5b24d6-6819-237c-7782-1602b5e67857-666c96e3, #w-node-_8ed212cf-af48-5109-231d-59d0db31d341-666c96e3, #w-node-ab7a3908-1f65-9081-6212-f274d38aba92-666c96e3, #w-node-_2304c44b-0562-af61-5105-27b736708b9f-666c96e3, #w-node-bdbffc70-9150-9634-209b-c1e291b061ab-666c96e3, #w-node-_16bd70b5-5918-69cf-17c9-3e24e188cdfe-295a1360, #w-node-b0ba9dcd-9dd5-eaaa-dda0-75cfabaf17c8-295a1360, #w-node-cc6ce0bb-ddf5-c0dc-afad-1c8369518b7d-295a1360, #w-node-_20aa003a-05d7-ff76-c3af-b134bc7c3fea-295a1360, #w-node-_54c9bb86-dd50-17b1-6140-8cda6523a0a4-295a1360, #w-node-_77aa437e-17d1-02e2-31b4-fd11d5f6930b-295a1360, #w-node-ae9f4bfe-0439-0d98-fe36-21fdb064f6e9-ae2e0cd2, #w-node-_5c62a45a-a36b-f558-514d-48e87aed3b5b-ae2e0cd2, #w-node-ee2e19fd-db93-e51b-df82-73b2de006ee2-ae2e0cd2, #w-node-cc973589-c6a0-a28f-c117-2873712b1492-ae2e0cd2, #w-node-ae922e91-d597-91e7-6fba-5b22073095b9-ae2e0cd2, #w-node-b7f4167a-8e71-7233-df95-0be62c3a4e47-ae2e0cd2 {
+#w-node-dbf188a7-ab8c-b89c-6d63-7aa0c30111fa-666c96e3, #w-node-_90a31371-a903-3bc9-7f56-babb137ff902-666c96e3, #w-node-_8c5b24d6-6819-237c-7782-1602b5e67857-666c96e3, #w-node-_8ed212cf-af48-5109-231d-59d0db31d341-666c96e3, #w-node-ab7a3908-1f65-9081-6212-f274d38aba92-666c96e3, #w-node-_2304c44b-0562-af61-5105-27b736708b9f-666c96e3, #w-node-bdbffc70-9150-9634-209b-c1e291b061ab-666c96e3, #w-node-_16bd70b5-5918-69cf-17c9-3e24e188cdfe-295a1360, #w-node-b0ba9dcd-9dd5-eaaa-dda0-75cfabaf17c8-295a1360, #w-node-cc6ce0bb-ddf5-c0dc-afad-1c8369518b7d-295a1360, #w-node-_20aa003a-05d7-ff76-c3af-b134bc7c3fea-295a1360, #w-node-_54c9bb86-dd50-17b1-6140-8cda6523a0a4-295a1360, #w-node-_77aa437e-17d1-02e2-31b4-fd11d5f6930b-295a1360, #w-node-ae9f4bfe-0439-0d98-fe36-21fdb064f6e9-ae2e0cd2, #w-node-_5c62a45a-a36b-f558-514d-48e87aed3b5b-ae2e0cd2, #w-node-cc973589-c6a0-a28f-c117-2873712b1492-ae2e0cd2, #w-node-ae922e91-d597-91e7-6fba-5b22073095b9-ae2e0cd2, #w-node-ee2e19fd-db93-e51b-df82-73b2de006ee2-ae2e0cd2, #w-node-b7f4167a-8e71-7233-df95-0be62c3a4e47-ae2e0cd2 {
   grid-area: 1 / 1 / 2 / 2;
 }
 
